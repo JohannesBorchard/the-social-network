@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Schlecht" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Start" transform="translate(-910.000000, -32.000000)">
+            <g id="Menu">
+                <g id="Group-2" transform="translate(910.000000, 28.000000)">
+                    <g id="Name">
+                        <g id="Group" transform="translate(0.000000, 4.000000)">
+                            <circle id="Oval" fill="#FFFFFF" cx="10" cy="10" r="10"></circle>
+                            <g id="single-01" transform="translate(4.878049, 3.902439)" fill="#4A4A4A" fill-rule="nonzero">
+                                <path d="M5.36585366,6.34146341 C6.98,6.34146341 8.29268293,5.02878049 8.29268293,3.41463415 L8.29268293,2.92682927 C8.29268293,1.31268293 6.98,0 5.36585366,0 C3.75170732,0 2.43902439,1.31268293 2.43902439,2.92682927 L2.43902439,3.41463415 C2.43902439,5.02878049 3.75170732,6.34146341 5.36585366,6.34146341 Z" id="Shape"></path>
+                                <path d="M8.93756098,7.79560976 C6.64292683,7.16 4.08926829,7.16 1.79414634,7.79560976 C0.73804878,8.08829268 0,9.05560976 0,10.1487805 L0,11.7073171 L10.7317073,11.7073171 L10.7317073,10.1487805 C10.7317073,9.05560976 9.99365854,8.08829268 8.93756098,7.79560976 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

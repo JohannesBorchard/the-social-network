@@ -1,0 +1,68 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	background-color: #22405F;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav * {
+	color: #ffffff;
+}
+
+nav img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+nav img:last-child {
+	margin-right: 40px;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.profile {
+	margin-right: 40px;
+}
+
+.nav-group {
+	display: flex;
+	align-items: center;
+}
+
+.brand-icon {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 300px;
+	grid-template-rows: 100vh;
+	margin-top: 60px;
+}
+
+.feed h2, .friends h2 {
+	margin-top: 40px;
+}
+
+.feed {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.friends {
+	background-color: #D8D8D8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
