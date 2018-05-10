@@ -2,11 +2,13 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	height: 60px;
-	background-color: #22405F;
+	background-color: #01406C;
 	align-items: center;
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 100;
+
 }
 
 nav * {
@@ -27,8 +29,24 @@ nav a:hover {
 	color: #ffffff;
 }
 
+.btn-primary {
+	background-color: #F45A2B;
+	border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+	background-color: #FF7D54;
+}
+
+.btn-link, .btn-link:hover {
+	margin-top: 10px;
+	color: #9B9B9B;
+	text-decoration: none;
+}
+
 .profile {
 	margin-right: 40px;
+	cursor: pointer;
 }
 
 .nav-group {
@@ -51,7 +69,7 @@ main {
 	margin-top: 60px;
 }
 
-.feed h2, .friends h2 {
+.feed h2, .friends h2, .settings h2 {
 	margin-top: 40px;
 }
 
@@ -70,8 +88,56 @@ main {
 	height: 100%;
     width: 300px;
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     top: 60px;
     right: 0;
     overflow-x: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.friends p {
+	padding-top: 40px;
+	font-size: 14px;
+	text-align: center;
+} 
+
+form {
+	max-width: 350px;
+	background-color: #EEE;
+	padding: 40px;
+	border-radius: 7px;
+	margin-top: 200px;
+}
+
+form .btn {
+	width: 100%;
+}
+
+.container {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+
+}
+
+#emailHelp {
+	display: none;
+}
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.settings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.delete-account {
+	margin-top: 50px;
 }

@@ -14,13 +14,18 @@
 <body>
 	<nav>
 		<div class="nav-group">
-			<a href="/" class="brand-icon">TSN</a>
+			<a href="{{ site.baseurl }}" class="brand-icon">TSN</a>
     		<input class="form-control mr-sm-2" type="search" placeholder="Suchen" aria-label="Search">
     		<button class="btn my-2 my-sm-0" type="submit">Suche</button>
   		</div>
 		<div class="nav-group">
 			<img src="assets/profile.svg" alt="profile">
-			<div class="profile">Erika</div>
+			<div class="profile dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Erika</div>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			    <a class="dropdown-item" href="/profile">Profil</a>
+			    <a class="dropdown-item" href="{{ site.baseurl }}settings">Einstellungen</a>
+			    <a class="dropdown-item" href="{{ site.baseurl }}login">Logout</a>
+		  	</div>
 			<img src="assets/friends.svg" alt="friends">
 			<img src="assets/chat.svg" alt="chat">
 			<img src="assets/notifications.svg" alt="notifications">
