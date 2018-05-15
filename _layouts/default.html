@@ -14,9 +14,23 @@
 <body>
 	<nav>
 		<div class="nav-group">
-			<a href="{{ site.baseurl }}" class="brand-icon">TSN</a>
+				<a href="{{ site.baseurl }}" class="brand-icon">TSN</a>
+                <div id="custom-search-input">
+                <div class="input-group">
+                    <input type="text" class="form-control input-lg" placeholder="Suchen" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <img src="assets/search.svg" class=""></img>
+                        </button>
+                    </span>
+                </div>
+            </div>
+            
+</div>
+
+			<!-- <a href="{{ site.baseurl }}" class="brand-icon">TSN</a>
     		<input class="form-control mr-sm-2" type="search" placeholder="Suchen" aria-label="Search">
-    		<button class="btn my-2 my-sm-0" type="submit">Suche</button>
+    		<button class="btn my-2 my-sm-0" type="submit">Suche</button> -->
   		</div>
 		<div class="nav-group">
 			<img src="assets/profile.svg" alt="profile">

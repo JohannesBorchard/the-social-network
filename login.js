@@ -55,7 +55,7 @@ $(document).ready(function() {
     }
 
     function testPassword(passwordEntered) {
-        if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/.test(passwordEntered)) {
+        if (/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*-])(?=.{8,})/.test(passwordEntered)) {
             $("#password").removeClass('is-invalid');
             $("#password").popover("hide");
             inputCorrect = true;
